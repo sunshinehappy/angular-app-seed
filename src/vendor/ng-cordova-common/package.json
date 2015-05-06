@@ -1,0 +1,20 @@
+{
+  "name": "ng-cordova-common",
+  "description": "angular with cordova common js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eleme/ng-cordova-common.git"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-uglify": "*",
+    "gulp-rename": "*",
+    "gulp-rimraf": "*",
+    "gulp-connect": "^2.0.5",
+    "gulp-open": "^0.3.1"
+  },
+  "scripts": {
+  }
+}

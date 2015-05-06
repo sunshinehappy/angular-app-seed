@@ -1,0 +1,12 @@
+{
+	"err_code": "200",
+	"msg": "1",
+	"data": {
+		"city_id": 12,
+		"id_card": "123456",
+		"mobile": "123",
+		"name": "kevin",
+		"open_id": "xasx",
+		"useId": 123
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ng-cordova-common",
+  "main": "dist/common.js",
+  "version": "0.1.2",
+  "homepage": "https://github.com/eleme/ng-cordova-common",
+  "authors": [
+    "sunupo <sunsheng.cn@gmail.com>"
+  ],
+  "description": "ele.me eve project angular common js",
+  "keywords": [
+    "angular"
+  ],
+  "dependencies": {
+    "angular": ">1.3.0",
+    "localforage":"*"
+  },
+  "license": "none",
+  "private": true
+}

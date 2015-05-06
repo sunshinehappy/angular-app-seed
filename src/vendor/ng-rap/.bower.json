@@ -1,0 +1,29 @@
+{
+  "name": "ng-rap",
+  "main": "index.js",
+  "version": "0.2.1",
+  "authors": [
+    "义宇 <yiyu.ljw@taobao.com>"
+  ],
+  "description": "rap plugin for angular",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "build.sh",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/goto100/ng-rap",
+  "_release": "0.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.1",
+    "commit": "e88d7db4fb2a118bf00060366d65b76456f3bae2"
+  },
+  "_source": "git://github.com/goto100/ng-rap.git",
+  "_target": "~0.2.1",
+  "_originalSource": "ng-rap",
+  "_direct": true
+}

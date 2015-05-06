@@ -1,0 +1,12 @@
+{
+  "name": "ng-rap",
+  "description": "A starter project ",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.3.13",
+    "ng-cordova-common": "git@github.com:eleme/ng-cordova-common.git#0.1.3",
+    "mobile-angular-ui": "~1.2.0-beta.11"
+  }
+}
