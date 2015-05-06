@@ -3,8 +3,8 @@ Angular Seed Project
 angular app seed build with mobile-angular-ui and gulp
 
 #Get up and running
-    git clone 
-    
+    git clone git@github.com:KevinOfNeu/angular-app-seed.git
+    cd  angular-app-seed.git
 #How to develop
     gulp dev
 
