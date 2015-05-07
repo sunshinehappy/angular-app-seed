@@ -1,7 +1,7 @@
 'use strict';
 require('./module/');
 var app = angular.module(
-    'app', ['ngRoute','ngRap', 'common', 'module', 'mobile-angular-ui']
+    'app', ['ngRoute', 'common', 'module', 'mobile-angular-ui']
 );
 
 app.config(
@@ -40,7 +40,7 @@ app.run(
     function($rootScope,$http) {
      console.log('run');
         $http.post('http://28eleme.test:8080/mockjs/1/login', {
-            action:123
+            data:{id:12,msg:'msgYes'},name:'NameText'
         }).then(function(response) {
             console.info(response.data);
         });

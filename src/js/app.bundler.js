@@ -1,10 +1,11 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 'use strict';
 require('./module/');
-var pta = angular.module(
-    'app', ['ngRoute', 'common', 'module', 'mobile-angular-ui']);
+var app = angular.module(
+    'app', ['ngRoute', 'common', 'module', 'mobile-angular-ui']
+);
 
-pta.config(
+app.config(
     [
         '$routeProvider',
     function($routeProvider) {
@@ -33,14 +34,14 @@ pta.config(
     }
 ]);
 
-pta.run(
+app.run(
     [
     '$rootScope',
     '$http',
     function($rootScope,$http) {
      console.log('run');
-        $http.post('http://28eleme.test:8080/mockjs/1/login', {
-            action:123
+        $http.get('http://28eleme.test:8080/mockjs/1/login', {
+            data:{id:12,msg:'msgYes'},name:'NameText'
         }).then(function(response) {
             console.info(response.data);
         });
