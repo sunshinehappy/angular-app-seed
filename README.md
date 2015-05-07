@@ -1,6 +1,8 @@
-Angular Seed Project[![Build Status](https://travis-ci.org/KevinOfNeu/angular-app-seed.svg)](https://travis-ci.org/KevinOfNeu/angular-app-seed)
+Angular Seed Project
 ================
-angular app seed build with mobile-angular-ui and gulp
+[![Build Status](https://travis-ci.org/KevinOfNeu/angular-app-seed.svg)](https://travis-ci.org/KevinOfNeu/angular-app-seed)    
+
+Angular app seed build with mobile-angular-ui and gulp
 
 #Get up and running
     git clone git@github.com:KevinOfNeu/angular-app-seed.git
